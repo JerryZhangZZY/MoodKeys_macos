@@ -1,0 +1,105 @@
+
+/* Class = "NSButtonCell"; title = "Color correction"; ObjectID = "2oJ-x3-2nD"; */
+"2oJ-x3-2nD.title" = "颜色修正";
+
+/* Class = "NSTextFieldCell"; title = "Usage"; ObjectID = "6Th-bi-zaY"; */
+"6Th-bi-zaY.title" = "Usage";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Vendor ID"; ObjectID = "6di-81-FP7"; */
+"6di-81-FP7.placeholderString" = "Vendor ID";
+
+/* Class = "NSButtonCell"; title = "Skip weekends and holidays"; ObjectID = "6gY-WH-71b"; */
+"6gY-WH-71b.title" = "跳过周末和节假日";
+
+/* Class = "NSTextFieldCell"; title = "Start time"; ObjectID = "809-kh-Wan"; */
+"809-kh-Wan.title" = "开始时间";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Station"; ObjectID = "9Te-hK-Qno"; */
+"9Te-hK-Qno.placeholderString" = "气象站";
+
+/* Class = "NSButtonCell"; title = "Custom"; ObjectID = "Nle-nO-SNK"; */
+"Nle-nO-SNK.title" = "自定义";
+
+/* Class = "NSSecureTextFieldCell"; placeholderString = "Your API token"; ObjectID = "RfQ-we-iFP"; */
+"RfQ-we-iFP.placeholderString" = "你的 API 令牌";
+
+/* Class = "NSTextFieldCell"; title = "Request you API token on: "; ObjectID = "SXf-1g-BJJ"; */
+"SXf-1g-BJJ.title" = "请求你的 API 令牌：";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Usage page key"; ObjectID = "Tbh-Hg-L51"; */
+"Tbh-Hg-L51.placeholderString" = "Usage page 键值";
+
+/* Class = "NSTextFieldCell"; title = "10"; ObjectID = "UBu-2G-5ry"; */
+"UBu-2G-5ry.title" = "10";
+
+/* Class = "NSTextFieldCell"; title = "2"; ObjectID = "YpP-mH-L4y"; */
+"YpP-mH-L4y.title" = "2";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Product ID"; ObjectID = "bGs-ny-rO5"; */
+"bGs-ny-rO5.placeholderString" = "Product ID";
+
+/* Class = "NSButtonCell"; title = "Start at login"; ObjectID = "bPg-UY-q2U"; */
+"bPg-UY-q2U.title" = "登陆时启动";
+
+/* Class = "NSTextFieldCell"; title = "LED color that makes your keyboard displays true white."; ObjectID = "c7j-6O-N15"; */
+"c7j-6O-N15.title" = "使你的键盘显示出真正白色的 LED 颜色。";
+
+/* Class = "NSTextFieldCell"; title = "5"; ObjectID = "cbw-Xt-dRh"; */
+"cbw-Xt-dRh.title" = "5";
+
+/* Class = "NSTextFieldCell"; title = "API token"; ObjectID = "ccw-zI-QF3"; */
+"ccw-zI-QF3.title" = "API 令牌";
+
+/* Class = "NSTextFieldCell"; title = "30"; ObjectID = "e1i-PR-1dh"; */
+"e1i-PR-1dh.title" = "30";
+
+/* Class = "NSTextFieldCell"; title = "Version x.x.x (xxxxxxx)"; ObjectID = "ei0-3z-9wy"; */
+"ei0-3z-9wy.title" = "Version x.x.x (xxxxxxx)";
+
+/* Class = "NSButtonCell"; title = "Activate on Launch"; ObjectID = "hNY-of-BjZ"; */
+"hNY-of-BjZ.title" = "启动时激活键盘";
+
+/* Class = "NSTextFieldCell"; title = "End time"; ObjectID = "j9A-KT-fjL"; */
+"j9A-KT-fjL.title" = "结束时间";
+
+/* Class = "NSTextFieldCell"; title = "Automatically opens the app when you start your Mac."; ObjectID = "juy-hg-NyG"; */
+"juy-hg-NyG.title" = "Mac 启动时自动打开应用程序。";
+
+/* Class = "NSTextFieldCell"; title = "Refresh period (minutes)"; ObjectID = "kPm-Mz-O0Q"; */
+"kPm-Mz-O0Q.title" = "刷新时间（分钟）";
+
+/* Class = "NSButtonCell"; title = "Enable timer"; ObjectID = "mfb-9d-Tl7"; */
+"mfb-9d-Tl7.title" = "启用定时器";
+
+/* Class = "NSTextFieldCell"; title = "Immediately activates lighting when the app launched."; ObjectID = "nXr-vD-eaP"; */
+"nXr-vD-eaP.title" = "当应用程序启动时立即激活键盘灯。";
+
+/* Class = "NSTextFieldCell"; title = "Location"; ObjectID = "onO-cm-atS"; */
+"onO-cm-atS.title" = "位置";
+
+/* Class = "NSButtonCell"; title = "Auto"; ObjectID = "pQC-gY-VEI"; */
+"pQC-gY-VEI.title" = "自动";
+
+/* Class = "NSTextFieldCell"; title = "1"; ObjectID = "pbC-9q-Ygo"; */
+"pbC-9q-Ygo.title" = "1";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Usage key"; ObjectID = "qe9-Mv-TKs"; */
+"qe9-Mv-TKs.placeholderString" = "Usage 键值";
+
+/* Class = "NSTextFieldCell"; title = "PID"; ObjectID = "qlk-3O-Dfb"; */
+"qlk-3O-Dfb.title" = "PID";
+
+/* Class = "NSTextFieldCell"; title = "Usage Page"; ObjectID = "sb1-Mz-bAt"; */
+"sb1-Mz-bAt.title" = "Usage Page";
+
+/* Class = "NSTextFieldCell"; title = "VID"; ObjectID = "u0p-cH-cMB"; */
+"u0p-cH-cMB.title" = "VID";
+
+/* Class = "NSTextFieldCell"; title = "MoodKeys"; ObjectID = "v7m-vb-lgg"; */
+"v7m-vb-lgg.title" = "MoodKeys";
+
+/* Class = "NSButtonCell"; title = "Reset Application"; ObjectID = "vwx-cm-DlR"; */
+"vwx-cm-DlR.title" = "重置应用程序";
+
+/* Class = "NSButtonCell"; title = "aqicn.org"; ObjectID = "zj5-0L-jKl"; */
+"zj5-0L-jKl.title" = "aqicn.org";

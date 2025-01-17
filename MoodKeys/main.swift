@@ -20,6 +20,12 @@ let aqiPrefVc = storyboard.instantiateController(withIdentifier: "AqiPrefsVC") a
 let aboutPrefsVc = storyboard.instantiateController(withIdentifier: "AboutPrefsVC") as? AboutPrefsViewController
 
 autoreleasepool { () in
+#if DEBUG
+  Log.setLevel(.debug)
+#else
+  Log.setLevel(.off)
+#endif
+  
   let mc = NSApplication.shared
   let mcDelegate = AppDelegate()
   mc.delegate = mcDelegate

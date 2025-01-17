@@ -92,13 +92,14 @@ func timeStrToArray(_ timeString: String) -> [Int]? {
 }
 
 class Log {
-  private static var curLogLevel: LogLevel = .debug
+  private static var curLogLevel: LogLevel = .off
   
   enum LogLevel: Int {
     case debug = 0
     case info = 1
     case warning = 2
     case error = 3
+    case off = 4
     
     var description: String {
       switch self {
@@ -110,6 +111,8 @@ class Log {
         return "WARN "
       case .error:
         return "ERROR"
+      case .off:
+        return "OFF"
       }
     }
   }
