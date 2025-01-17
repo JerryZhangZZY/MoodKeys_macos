@@ -1,0 +1,33 @@
+{
+  "originHash" : "bbfa711e4acf71ae1159cbad63b11cd21d2ef4bf3a538701f08262951ac9545d",
+  "pins" : [
+    {
+      "identity" : "launchatlogin-legacy",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/LaunchAtLogin-Legacy",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9a894d799269cb591037f9f9cb0961510d4dca81"
+      }
+    },
+    {
+      "identity" : "settings",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/Settings",
+      "state" : {
+        "revision" : "879ea83a7bbc6dbebf62bed8c547f090146372a6",
+        "version" : "3.1.1"
+      }
+    },
+    {
+      "identity" : "via-lighting-api_swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JerryZhangZZY/via-lighting-api_swift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "088cb53f56714c8595b255e4c75382006e5388b0"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "active-dc_20.png",
+      "idiom" : "mac",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "active-dc_40.png",
+      "idiom" : "mac",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

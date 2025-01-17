@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CB38FA8C2D06FF2100621313 /* ViaLightingAPI in Frameworks */ = {isa = PBXBuildFile; productRef = CB38FA8B2D06FF2100621313 /* ViaLightingAPI */; };
+		CB3DF2732D3A56DE0075A438 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = CB3DF2722D3A56DE0075A438 /* LaunchAtLogin */; };
+		CB9CA7612D0A8D1700DE3040 /* Settings in Frameworks */ = {isa = PBXBuildFile; productRef = CB9CA7602D0A8D1700DE3040 /* Settings */; };
+		CB9CA7642D0A8D8D00DE3040 /* ViaLightingAPI in Frameworks */ = {isa = PBXBuildFile; productRef = CB9CA7632D0A8D8D00DE3040 /* ViaLightingAPI */; };
+		CB9CA7672D0A8DA000DE3040 /* Settings in Frameworks */ = {isa = PBXBuildFile; productRef = CB9CA7662D0A8DA000DE3040 /* Settings */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CB950CF52D06903A00E755A2 /* MoodKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +31,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9CA7642D0A8D8D00DE3040 /* ViaLightingAPI in Frameworks */,
+				CB9CA7672D0A8DA000DE3040 /* Settings in Frameworks */,
+				CB38FA8C2D06FF2100621313 /* ViaLightingAPI in Frameworks */,
+				CB3DF2732D3A56DE0075A438 /* LaunchAtLogin in Frameworks */,
+				CB9CA7612D0A8D1700DE3040 /* Settings in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +68,7 @@
 				CB950CF12D06903A00E755A2 /* Sources */,
 				CB950CF22D06903A00E755A2 /* Frameworks */,
 				CB950CF32D06903A00E755A2 /* Resources */,
+				CB3DF2752D3A57BB0075A438 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -65,6 +79,11 @@
 			);
 			name = MoodKeys;
 			packageProductDependencies = (
+				CB38FA8B2D06FF2100621313 /* ViaLightingAPI */,
+				CB9CA7602D0A8D1700DE3040 /* Settings */,
+				CB9CA7632D0A8D8D00DE3040 /* ViaLightingAPI */,
+				CB9CA7662D0A8DA000DE3040 /* Settings */,
+				CB3DF2722D3A56DE0075A438 /* LaunchAtLogin */,
 			);
 			productName = MoodKeys;
 			productReference = CB950CF52D06903A00E755A2 /* MoodKeys.app */;
@@ -91,9 +110,15 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = CB950CEC2D06903A00E755A2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CB9CA7622D0A8D8D00DE3040 /* XCRemoteSwiftPackageReference "via-lighting-api_swift" */,
+				CB9CA7652D0A8DA000DE3040 /* XCRemoteSwiftPackageReference "Settings" */,
+				CB3DF2712D3A56DE0075A438 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Legacy" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CB950CF62D06903A00E755A2 /* Products */;
 			projectDirPath = "";
@@ -114,6 +139,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CB3DF2752D3A57BB0075A438 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB950CF12D06903A00E755A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -130,6 +176,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -162,7 +209,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -178,7 +225,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -193,6 +240,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -225,7 +273,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -235,7 +283,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -248,11 +296,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = MoodKeys/MoodKeys.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 250117;
+				DEVELOPMENT_TEAM = 2FY37XM974;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodKeys/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MoodKeys;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -260,7 +314,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JerryZhangZZY.MoodKeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -273,11 +327,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = MoodKeys/MoodKeys.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 250117;
+				DEVELOPMENT_TEAM = 2FY37XM974;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodKeys/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MoodKeys;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -285,7 +345,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JerryZhangZZY.MoodKeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -315,6 +375,59 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB3DF2712D3A56DE0075A438 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Legacy" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Legacy";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		CB9CA7622D0A8D8D00DE3040 /* XCRemoteSwiftPackageReference "via-lighting-api_swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JerryZhangZZY/via-lighting-api_swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		CB9CA7652D0A8DA000DE3040 /* XCRemoteSwiftPackageReference "Settings" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Settings";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB38FA8B2D06FF2100621313 /* ViaLightingAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ViaLightingAPI;
+		};
+		CB3DF2722D3A56DE0075A438 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB3DF2712D3A56DE0075A438 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Legacy" */;
+			productName = LaunchAtLogin;
+		};
+		CB9CA7602D0A8D1700DE3040 /* Settings */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Settings;
+		};
+		CB9CA7632D0A8D8D00DE3040 /* ViaLightingAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB9CA7622D0A8D8D00DE3040 /* XCRemoteSwiftPackageReference "via-lighting-api_swift" */;
+			productName = ViaLightingAPI;
+		};
+		CB9CA7662D0A8DA000DE3040 /* Settings */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB9CA7652D0A8DA000DE3040 /* XCRemoteSwiftPackageReference "Settings" */;
+			productName = Settings;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CB950CED2D06903A00E755A2 /* Project object */;
 }

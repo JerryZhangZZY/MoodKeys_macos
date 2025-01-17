@@ -1,0 +1,25 @@
+/* Prefs Title */
+"General" = "General";
+"Keybaord" = "Keybaord";
+"Timer" = "Timer";
+"Aqi" = "AQICN";
+"About" = "About";
+
+/* Basic */
+"Yes" = "Yes";
+"Cancel" = "Cancel";
+
+/* Main */
+"Reset Application" = "Reset Application";
+"Are you sure you want to reset all settings?" = "Are you sure you want to reset all settings?";
+
+/* Keyboard */
+"Modify" = "Modify";
+"Save" = "Save";
+
+/* About */
+"Version" = "Version";
+
+/* Menu */
+"Settings" = "Settings…";
+"Quit" = "Quit";
