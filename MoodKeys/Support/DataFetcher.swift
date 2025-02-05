@@ -7,21 +7,6 @@
 
 import Foundation
 
-//func fetchDuty() async -> Bool? {
-//  let url = URL(string: "http://api.haoshenqi.top/holiday/today")!
-//  var request = URLRequest(url: url)
-//  request.timeoutInterval = 2
-//  do {
-//    let (data, response) = try await URLSession.shared.data(for: request)
-//    if let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 {
-//      if let responseString = String(data: data, encoding: .utf8) {
-//        return responseString == "工作"
-//      }
-//    }
-//  } catch {}
-//  return nil
-//}
-
 /**
  * 从 api 获取今天是否工作
  */
@@ -46,24 +31,6 @@ func fetchDuty() -> Bool {
   semaphore.wait()
   return result
 }
-
-//func fetchAqi(token: String, location: String) async -> Int? {
-//  let url = URL(string: "http://api.waqi.info/feed/\(location)/?token=\(token)")!
-//  var request = URLRequest(url: url)
-//  request.timeoutInterval = 2
-//  do {
-//    let (data, response) = try await URLSession.shared.data(for: request)
-//    if let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 {
-//      if let airQualityData = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
-//         let status = airQualityData["status"] as? String, status == "ok",
-//         let dataDict = airQualityData["data"] as? [String: Any],
-//         let aqi = dataDict["aqi"] as? Int {
-//        return aqi
-//      }
-//    }
-//  } catch {}
-//  return nil
-//}
 
 /**
  * 从 AQICN 获取空气质量
